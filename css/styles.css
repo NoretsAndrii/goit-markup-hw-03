@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #434455;
+  background-color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+h2,
+h3 {
+  color: #2e2f42;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.logo {
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+
+/* Header */
+
+.header .logo {
+  color: #4d5ae5;
+}
+
+.header .logo-studio {
+  color: #2e2f42;
+}
+
+.header-nav-menu-items {
+  font-weight: 500;
+}
+
+.header-nav-menu-link {
+  color: #2e2f42;
+}
+
+.header-nav-menu-link:hover,
+.header-nav-menu-link:focus {
+  color: #404bbf;
+}
+
+.header-nav-menu-link:active {
+  color: #404bbf;
+  text-decoration: underline;
+}
+
+.header-address {
+  font-style: normal;
+}
+
+.header-address-menu-item {
+  color: #434455;
+}
+
+.header-address-menu-item:hover,
+.header-address-menu-item:focus {
+  color: #404bbf;
+}
+
+/* Main Top */
+
+.main-top {
+  background-color: #2e2f42;
+}
+
+.main-top-title {
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  color: #fff;
+}
+
+.main-top-button {
+  background-color: #4d5ae5;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  line-height: 1.5;
+}
+
+.main-top-button:hover,
+.main-top-button:focus {
+  background-color: #404bbf;
+  cursor: pointer;
+}
+
+/* Main Advantages  */
+
+/* Main Our Team */
+
+.main-our-team {
+  background-color: #f4f4fd;
+}
+
+.main-our-team-item {
+  background-color: #fff;
+}
+
+.main-our-team-item-title {
+  text-align: center;
+}
+
+.main-our-team-item-text {
+  text-align: center;
+}
+
+/* Main Our Portfolio */
+
+/* Footer */
+
+.footer {
+  background-color: #2e2f42;
+  color: #f4f4fd;
+}
+
+.footer .logo {
+  color: #4d5ae5;
+}
+
+.footer .logo-studio {
+  color: #f4f4fd;
+}
