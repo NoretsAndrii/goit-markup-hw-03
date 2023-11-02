@@ -8,6 +8,13 @@ body {
   letter-spacing: 0.02em;
 }
 
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
 h2,
 h3 {
   color: #2e2f42;
@@ -33,6 +40,21 @@ a {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+}
+
+img {
+  display: block;
+}
+
+.container {
+  max-width: 1158px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .logo {
@@ -45,6 +67,23 @@ ul {
 }
 
 /* Header */
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 76px;
+}
+
+.header-nav-menu,
+.header-address-menu {
+  gap: 40px;
+}
 
 .header .logo {
   color: #4d5ae5;
@@ -91,12 +130,22 @@ ul {
   background-color: #2e2f42;
 }
 
+.main-top .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 188px;
+  padding-bottom: 188px;
+}
+
 .main-top-title {
   font-size: 56px;
   font-weight: 700;
   line-height: 1.07;
   text-align: center;
   color: #fff;
+  width: 496px;
+  margin-bottom: 48px;
 }
 
 .main-top-button {
@@ -105,6 +154,7 @@ ul {
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
+  padding: 16px 32px;
 }
 
 .main-top-button:hover,
