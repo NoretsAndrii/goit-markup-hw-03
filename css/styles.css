@@ -80,6 +80,7 @@ img {
   display: flex;
   justify-content: space-between;
 }
+
 .header-nav {
   display: inline-flex;
   align-items: center;
@@ -100,14 +101,14 @@ img {
 }
 
 .header-nav-menu-items {
-  padding-top: 24px;
-  padding-bottom: 24px;
   font-weight: 500;
 }
 
 .header-nav-menu-link {
   display: block;
   color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-nav-menu-link:hover,
@@ -122,17 +123,18 @@ img {
 
 .header-address {
   font-style: normal;
-  padding-top: 24px;
-  padding-bottom: 24px;
   display: inline-flex;
 }
 
-.header-address-menu-item {
+.header-address-menu-item-link {
   color: #434455;
+  display: block;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
-.header-address-menu-item:hover,
-.header-address-menu-item:focus {
+.header-address-menu-item-link:hover,
+.header-address-menu-item-link:focus {
   color: #404bbf;
 }
 
