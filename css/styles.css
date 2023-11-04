@@ -57,6 +57,11 @@ img {
   margin-right: auto;
 }
 
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
 .logo {
   text-transform: uppercase;
   font-family: "Raleway", sans-serif;
@@ -134,10 +139,7 @@ img {
   background-color: #2e2f42;
 }
 
-.main-top .container {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+.main-top.section {
   padding-top: 188px;
   padding-bottom: 188px;
 }
@@ -150,15 +152,20 @@ img {
   color: #fff;
   width: 496px;
   margin-bottom: 48px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-top-button {
+  display: block;
   background-color: #4d5ae5;
   color: #fff;
   font-weight: 500;
   letter-spacing: 0.04em;
   line-height: 1.5;
   padding: 16px 32px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .main-top-button:hover,
@@ -168,11 +175,6 @@ img {
 }
 
 /* Main Advantages  */
-
-.main-advantages .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .main-advantages-items {
   gap: 24px;
@@ -186,11 +188,6 @@ img {
 
 .main-our-team {
   background-color: #f4f4fd;
-}
-
-.main-our-team .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
 }
 
 .main-our-team-title {
@@ -221,11 +218,6 @@ img {
 }
 
 /* Main Our Portfolio */
-
-.main-our-portfolio .container {
-  padding-top: 120px;
-  padding-bottom: 120px;
-}
 
 .main-our-portfolio-title {
   margin-bottom: 72px;
