@@ -3,14 +3,14 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./css/styles.css" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.css"
-      integrity="sha512-gA2Bvu0/hw4oj0Lp8ZHjK+o3S4BE5m8d/wNVy6ktKLhHKPpWLQwv9ixzuWirWOakoJqlBdePq2NhoCaUOQ5npQ=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="./css/styles.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -75,7 +75,7 @@
 
       <section class="main-advantages section">
         <div class="container">
-          <h2 class="main-advantages-title">Advantages</h2>
+          <h2 class="visually-hidden">Advantages</h2>
           <ul class="main-advantages-items">
             <li class="main-advantages-item">
               <h3 class="main-advantages-item-title">Strategy</h3>
@@ -122,8 +122,10 @@
                 alt="photo Mark Guerrero"
                 width="264"
               />
-              <h3 class="main-our-team-item-title">Mark Guerrero</h3>
-              <p class="main-our-team-item-text">Product Designer</p>
+              <div class="main-our-team-card-content">
+                <h3 class="main-our-team-item-title">Mark Guerrero</h3>
+                <p class="main-our-team-item-text">Product Designer</p>
+              </div>
             </li>
             <li class="main-our-team-item">
               <img
@@ -132,8 +134,10 @@
                 alt="photo Tom Ford"
                 width="264"
               />
-              <h3 class="main-our-team-item-title">Tom Ford</h3>
-              <p class="main-our-team-item-text">Frontend Developer</p>
+              <div class="main-our-team-card-content">
+                <h3 class="main-our-team-item-title">Tom Ford</h3>
+                <p class="main-our-team-item-text">Frontend Developer</p>
+              </div>
             </li>
             <li class="main-our-team-item">
               <img
@@ -142,8 +146,10 @@
                 alt="photo Camila Garcia"
                 width="264"
               />
-              <h3 class="main-our-team-item-title">Camila Garcia</h3>
-              <p class="main-our-team-item-text">Marketing</p>
+              <div class="main-our-team-card-content">
+                <h3 class="main-our-team-item-title">Camila Garcia</h3>
+                <p class="main-our-team-item-text">Marketing</p>
+              </div>
             </li>
             <li class="main-our-team-item">
               <img
@@ -152,8 +158,10 @@
                 alt="photo Daniel Wilson"
                 width="264"
               />
-              <h3 class="main-our-team-item-title">Daniel Wilson</h3>
-              <p class="main-our-team-item-text">UI Designer</p>
+              <div class="main-our-team-card-content">
+                <h3 class="main-our-team-item-title">Daniel Wilson</h3>
+                <p class="main-our-team-item-text">UI Designer</p>
+              </div>
             </li>
           </ul>
         </div>
