@@ -274,18 +274,15 @@ img {
   padding-bottom: 100px;
 }
 
-.footer .container {
+/* .footer .container {
   display: flex;
   flex-direction: column;
-}
-
-.footer a {
-  display: inline-block;
-}
+} */
 
 .footer .logo {
   color: #4d5ae5;
   margin-bottom: 16px;
+  display: inline-block;
 }
 
 .footer .logo-studio {
